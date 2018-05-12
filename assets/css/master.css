@@ -12694,6 +12694,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   font-family: 'Open Sans', 'Lekton', sans-serif;
   font-weight: 300;
   font-size: 2.0rem;
+  text-align: center;
   line-height: 1.2rem;
   color: #000;
   display: inline-block;
@@ -12803,6 +12804,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   transform: translateY(0);
   opacity: 1;
   visibility: visible;
+  text-align: center;
 }
 .open-menu {
   margin-left: 1.8rem;
