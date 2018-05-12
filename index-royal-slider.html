@@ -4,50 +4,58 @@
 	<meta charset="UTF-8">
 	<meta name="HandheldFriendly" content="true" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<title>Home-Page-Star</title>
+	<title>Royal-Slider-Home-Page</title>
 	<link rel="icon" href="assets/img/content/icon.png">
 	<!-- ========== CSS INCLUDES ========== -->
 	<link rel="stylesheet" href="assets/css/master.css">
 </head>
 <body>
+<style scoped>
+    .rsContent {
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+
 	<div class="page-loader">
-		 <div class="vertical-align align-center">
-			  <img src="assets/loader/loader.gif" alt="" class="loader-img">
-		 </div>
-	</div>
+	     <div class="vertical-align align-center">
+	          <img src="assets/loader/loader.gif" alt="" class="loader-img">
+	     </div>
+    </div>
 
 	<!-- =============== START BREADCRUMB ================ -->
-	<section class="no-mb">
+	<section class="no-mb" id="top">
 		<div class="row">
 			<div class="col-sm-12">
-				<div class="breadcrumb-fullscreen-parent phone-menu-bg">
-					<div class="breadcrumb breadcrumb-fullscreen alignleft small-description overlay almost-black-overlay" style="background-image: url('assets/img/header/header.png');" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
-						<div id="home" style="position: absolute;left: 0;top: 0;">
-							<div class="intro-header">
-								<div class="js-height-full star" style="height: 955px;">
-									<div class="star-pattern-1 js-height-full" style="height: 994px;"></div>
-									<div class="col-sm-12"> 
-										<div class="starTitle">
-											<h4>Theme Brothers</h4>
-											<div class="grid__item">
-						                		<h1>
-								                	<a class="link link-yaku" href="#">
-														<span>A</span><span>Q</span><span>U</span><span>R</span><span>A</span>					
-													</a>
-										        </h1>
-						                	</div>
-											<h4>Template</h4>
-										</div>
-										<canvas class="cover" width="1920" height="955"></canvas>
-									</div>
-								</div>
-							</div>
-	   					</div>
+				<div class="before-FullscreenSlider"></div>
+				<div class="breadcrumb-fullscreen-parent sliderContainerBreadcrumb">
+					<div class="starTitle">
+	                	<h4>Theme Brothers</h4>
+	                	<div class="grid__item">
+	                		<h1>
+			                	<a class="link link-yaku" href="#">
+									<span>A</span><span>Q</span><span>U</span><span>R</span><span>A</span>					
+								</a>
+					        </h1>
+	                	</div>	                	<h4>Template</h4>
+	                </div>
+					<div id="ava-slider" class="royalSlider  heroSlider rsMinW change-header-items-color">
+						<div class="rsContent" style="background-image: url(assets/img/header/header.png);">
+							<img class="rsImg" src="assets/img/header/header.png" alt="">
+						</div>
+						<div class="rsContent" style="background-image: url(assets/img/header/header.png);">
+							<img class="rsImg" src="assets/img/header/header.png" alt="">
+						</div>
+						<div class="rsContent" style="background-image: url(assets/img/header/header.png);">
+							<img class="rsImg" src="assets/img/header/header.png" alt="">
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+
 	<!-- =============== END BREADCRUMB ================ -->
 
 	<!-- =============== START PLAYER ================ -->
@@ -450,7 +458,7 @@
 	<!-- =============== END TOP HEADER ================ -->
 	
 	<!-- =============== START ALBUM COVER SECTION ================ -->
-	<section class="padding albumsHome hide-section">
+	<section class="padding albumsHome">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -516,7 +524,7 @@
 	<!-- =============== END ALBUM COVER SECTION ================ -->
 
 	<!-- =============== START EVENTS SECTION-1 ================ -->
-	<section style="background-image: url(assets/img/events/tableEventsHome.png);" class="background-properties hide-section paddingHomeEvents">
+	<section style="background-image: url(assets/img/events/tableEventsHome.png);" class="background-properties paddingHomeEvents">
 		<div class="tableEvents">
 			<div class="container">
 				<div class="row">
@@ -578,7 +586,7 @@
 	<!-- =============== END EVENTS SECTION-1 ================ -->
 
 	<!-- =============== START EVENTS SECTION-2 ================ -->
-	<section class="padding hide-section countdownSection background-properties" style="background-image: url(assets/img/events/countdownHome.png);">
+	<section class="padding countdownSection background-properties" style="background-image: url(assets/img/events/countdownHome.png);">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -621,7 +629,7 @@
 	<!-- =============== END EVENTS SECTION-2 ================ -->
 
 	<!-- =============== START HOME-BLOG SECTION ================ -->	
-	<section class="padding hide-section background-properties blogHomeSection" style="background-image: url(assets/img/blog/homeBlog.png);">	
+	<section class="padding background-properties blogHomeSection" style="background-image: url(assets/img/blog/homeBlog.png);">	
 		<div class="container">
 			<div class="row">
 				<div class="sectionTitle paddingBottom">
@@ -701,7 +709,7 @@
 	<!-- =============== END HOME-NLOG SECTION ================ -->	
 
 	<!-- =============== START TWITTER SECTION ================ -->
-	<section class="padding hide-section background-properties" style="background-image: url(assets/img/twitter/homeTwitter.png);">
+	<section class="padding background-properties" style="background-image: url(assets/img/twitter/homeTwitter.png);">
 		<div class="twitter">
 			<div class="container">
 				<div class="row">
@@ -719,7 +727,7 @@
 	<!-- =============== END TWITTER SECTION ================ -->
 
 	<!-- =============== START VIDEO SECTION ================ -->
-	<section class="videoHome hide-section padding">
+	<section class="videoHome padding">
 		<div class="container">
 			<div class="row">
 				<div class="sectionTitle">
@@ -743,7 +751,7 @@
 	<!-- =============== END VIDEO SECTION ================ -->
 
 	<!-- =============== START GALLERY SECTION ================ -->
-	<section style="padding-bottom:0; padding-top:0;" class="hide-section">
+	<section style="padding-bottom:0; padding-top:0;">
 		<div class="gallerySection">
 			<div class="container-fluid" style="padding:0;">
 				<div class="col-sm-12">
@@ -855,7 +863,7 @@
 	<!-- =============== END GALLERY SECTION ================ -->
 
 	<!-- =============== START HOME-SHOP SECTION ================ -->
-	<section class="shopHomePage shopHomePadding hide-section">
+	<section class="shopHomePage shopHomePadding">
 		<div class="shopSection">
 			<div class="container-fluid">
 			<div class="shopContent">
@@ -957,7 +965,7 @@
 	<!-- =============== END HOME-SHOP SECTION ================ -->
 
 	<!-- =============== START FOOTER ================ -->
-	<section style="background-color:#eeeeee;" class="hide-section">
+	<section style="background-color:#eeeeee;">
 		<div class="footer footerPadding">
 			<div class="container">
 				<div class="row">
@@ -996,10 +1004,10 @@
 	<!-- ================================================== -->
 	<script src="assets/js/jquery.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/plugins.js"></script>
 	<script type="text/javascript" src="assets/jplayer/jplayer/jquery.jplayer.js"></script>
 	<script src="assets/js/jPlayer.js"></script>
-	<script src="assets/js/plugins.js"></script>
-	<script src="assets/js/main.js"></script>
+	<script src="assets/js/mainSlider.js"></script>
 	<!--[if lte IE 9 ]>
 		<script src="assets/js/placeholder.js"></script>
 		<script>
@@ -1011,5 +1019,6 @@
 	<!-- ================================================== -->
 	<!-- =============== END JQUERY SCRIPTS ================ -->
 	<!-- ================================================== -->
+	
 </body>
 </html>

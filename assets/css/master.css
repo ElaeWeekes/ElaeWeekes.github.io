@@ -10560,7 +10560,7 @@ body {
 .videoHome .sectionTitle p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.8rem;
-  color: #333;
+  color: #757575;
   font-weight: 400;
   padding: 5.5rem 0;
   margin-bottom: 0!important;
@@ -10570,7 +10570,6 @@ body {
   font-size: 1.8rem;
   color: #bb9b69;
   font-weight: 400;
-  font-style: bold;
   text-decoration: none;
 }
 /***********************************************************************************************/
