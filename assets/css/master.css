@@ -9992,6 +9992,7 @@ body {
 }
 @media screen and (max-width: 1030px) {
   .background-properties {
+    background-image: url(assets/img/events/2.jpg);
     background-attachment: initial;
      background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -10005,6 +10006,7 @@ body {
 
 @media screen and (max-width: 790px) {
   .background-properties {
+    background-image: url(assets/img/events/2.jpg);
     background-attachment: initial;
      background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -10018,6 +10020,7 @@ body {
 
 @media screen and (max-width: 500px) {
   .background-properties {
+    background-image: url(assets/img/events/2.jpg);
     background-attachment: initial;
      background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -10031,6 +10034,7 @@ body {
 
 @media screen and (max-width: 300px) {
   .background-properties {
+    background-image: url(assets/img/events/2.jpg);
     background-attachment: initial;
      background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -11217,11 +11221,12 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 /***********************************************************************************************/
 @media (max-width: 780px) {
   .breadcrumb {
+    background-image: url(assets/img/events/2.jpg);
     height: auto;
     position: relative!important;
     background-size: cover;
     background-attachment: initial;
-    background-position: center!important;
+    background-position: top center!important;
   }
 }
 @media (max-width: 800px) {
@@ -12442,11 +12447,11 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   line-height: 0;
   position: absolute;
   width: 100%;
-  transition: all 3.5s;
-  -o-transition: all 3.5s;
-  -ms-transition: all 3.5s;
-  -moz-transition: all 3.5s;
-  -webkit-transition: all 3.5s;
+  transition: all 1.5s;
+  -o-transition: all 1.5s;
+  -ms-transition: all 1.5s;
+  -moz-transition: all 1.5s;
+  -webkit-transition: all 1.5s;
 }
 .computer-empty .computer-screen .screen-landing img {
   max-width: inherit;
