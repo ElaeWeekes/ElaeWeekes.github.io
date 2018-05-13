@@ -12614,6 +12614,8 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 .menu-fixed-container nav {
   display: table-cell;
   vertical-align: middle;
+
+
 }
 .menu-fixed-container nav .x-filter {
   display: inline-block;
@@ -12646,7 +12648,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
-  display: block;
+  display: inline-block;
   background: #000;
   margin-top: 2rem;
 }
@@ -12667,8 +12669,9 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 .menu-fixed-container nav ul {
   list-style-type: none;
   padding-left: 0;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   opacity: 0;
   -webkit-transform: translateY(70px);
   -moz-transform: translateY(70px);
@@ -12680,6 +12683,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   padding: 1rem;
   position: relative;
   display: block;
+  text-align: center;
   -webkit-transition-delay: 0;
   transition-delay: 0;
   -webkit-transition-property: all;
@@ -12691,11 +12695,10 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 }
 .menu-fixed-container nav ul li a {
   font-family: 'Open Sans', 'Lekton', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 2.0rem;
   line-height: 1.2rem;
   color: #000;
-  display: inline-block;
   text-transform: uppercase;
   cursor: pointer;
   text-decoration: none;
@@ -12758,6 +12761,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 .menu-fixed-container nav ul li .sub-menu li {
   display: block;
   padding: 0.2rem 2rem;
+
 }
 .menu-fixed-container nav ul li .sub-menu li a {
   font-size: 1.8rem;
@@ -12773,6 +12777,8 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   visibility: visible;
   max-height: 20rem;
   padding: 1rem 0;
+
+
 }
 .menu-fixed-container.open {
   visibility: visible;
@@ -12813,6 +12819,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   z-index: 6;
   top: 11px;
   position: relative;
+
 }
 .open-menu span {
   display: block;
