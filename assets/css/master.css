@@ -12272,6 +12272,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   padding-bottom: 1.8rem;
   width: 100%;
   padding: 1.8rem 5rem;
+
   z-index: 4;
   -webkit-transition-delay: 0;
   transition-delay: 0;
@@ -12529,6 +12530,8 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   }
   .topHeader {
     z-index: 22;
+    background: #000!important;
+    padding-bottom: 40px;
   }
   .breadTxt {
     text-align: center;
