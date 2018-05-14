@@ -12530,7 +12530,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   }
   .topHeader {
     z-index: 22;
-    background: #000!important;
+    background: #000;
     padding-bottom: 40px;
   }
   .breadTxt {
