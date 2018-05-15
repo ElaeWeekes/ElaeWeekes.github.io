@@ -16616,6 +16616,13 @@ body.opacityPlaylist .main-music-player .mesh-title {
   transform: translate(-50%, -50%);
 }*/
 
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-image: url('assets/img/header/header3.jpg');
+  }
+}
+
 
 
 
