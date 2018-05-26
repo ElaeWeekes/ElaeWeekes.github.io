@@ -12677,9 +12677,8 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 .menu-fixed-container nav ul {
   list-style-type: none;
   padding-left: 0;
-  text-align: center;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   opacity: 0;
   -webkit-transform: translateY(70px);
   -moz-transform: translateY(70px);
@@ -12691,7 +12690,6 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   padding: 1rem;
   position: relative;
   display: block;
-  text-align: center;
   -webkit-transition-delay: 0;
   transition-delay: 0;
   -webkit-transition-property: all;
@@ -12704,13 +12702,13 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 .menu-fixed-container nav ul li a {
   font-family: 'Open Sans', 'Lekton', sans-serif;
   font-weight: 400;
-  font-size: 2.0rem;
+  font-size: 2.4rem;
   line-height: 1.2rem;
   color: #000;
   text-transform: uppercase;
   cursor: pointer;
   text-decoration: none;
-  letter-spacing: 0.8rem;
+  letter-spacing: 0.1rem;
   z-index: 1;
   position: relative;
   outline: none;
